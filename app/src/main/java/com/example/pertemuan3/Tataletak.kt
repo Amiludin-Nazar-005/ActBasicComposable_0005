@@ -166,3 +166,6 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
                     alignment = Alignment.Center
                 )
             )
+        }
+    }
+}
