@@ -94,3 +94,9 @@ fun TugasLogin() {
         }
     }
 }
+
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun TugasLoginPreview() {
+    TugasLogin()
+}
