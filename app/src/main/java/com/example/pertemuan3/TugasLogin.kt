@@ -48,3 +48,14 @@ fun TugasLogin() {
                 fontSize = 14.sp
             )
 
+            Spacer(modifier = Modifier.height(40.dp))
+
+
+            Image(
+                painter = painterResource(id =R.drawable.logo_ps),
+                contentDescription = "Logo ps",
+                modifier = Modifier.size(140.dp)
+            )
+
+            Spacer(modifier = Modifier.height(48.dp))
+
