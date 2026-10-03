@@ -81,3 +81,16 @@ fun TugasLogin() {
 
             Spacer(modifier = Modifier.height(24.dp))
 
+            // Gambar lingkaran
+            Image(
+                painter = painterResource(id = R.drawable.motor),
+                contentDescription = "Gambar motor",
+                modifier = Modifier
+                    .size(300.dp)
+                    .clip(CircleShape)
+                    .border(4.dp, Color.White, CircleShape),
+                contentScale = ContentScale.Fit
+            )
+        }
+    }
+}
