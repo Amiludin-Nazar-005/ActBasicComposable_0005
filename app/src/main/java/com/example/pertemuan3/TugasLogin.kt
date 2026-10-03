@@ -59,3 +59,25 @@ fun TugasLogin() {
 
             Spacer(modifier = Modifier.height(48.dp))
 
+            // Identitas
+            Text(
+                text = "Nama",
+                color = Color.Red,
+                fontSize = 14.sp,
+                fontWeight = FontWeight.Bold
+            )
+            Text(
+                text = "Amiludin Nazar Ali Ghufron",
+                color = Color.Blue,
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold
+            )
+            Text(
+                text = "20240140005",
+                color = Color.Black,
+                fontSize = 22.sp,
+                fontWeight = FontWeight.Bold
+            )
+
+            Spacer(modifier = Modifier.height(24.dp))
+
